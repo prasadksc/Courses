@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-badge {
+  line-height: 60px;
+  background-color: lightslategrey;
+  color: #ffffff;
+}
+
+.header-badge > h1 {
+  padding-top: 50px;
+  margin-left: 60px;
+}

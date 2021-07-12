@@ -1,0 +1,76 @@
+.coursepage {
+  display: flex;
+  flex-direction: column;
+}
+
+.coursepage_info {
+  display: flex;
+  flex-direction: row;
+  background-color: darkslategrey;
+  width: 100%;
+}
+
+.row_content {
+  margin-left: 10px;
+  justify-items: center;
+}
+
+.row_content > img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.coursepage_rating {
+  display: flex;
+}
+
+.row_title {
+  color: whitesmoke;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.row_title > p {
+  color: whitesmoke;
+  margin-top: 5px;
+}
+
+.row_content > imag .coursepage_about {
+  display: flex;
+  flex-direction: row;
+}
+
+.coursepage_about {
+  display: flex;
+  flex-direction: row;
+  line-height: 30px;
+  background-color: rgb(221, 209, 195);
+}
+
+.row_about {
+  margin-top: 20px;
+  margin-left: 20px;
+  flex: 60%;
+  height: 500px;
+  border-right: 1px solid darkgray;
+}
+
+.row_about > h2 {
+  border-bottom: 4px solid darkslategrey;
+  width: 10%;
+}
+
+.row_about > p {
+  margin-right: 15px;
+}
+
+.row_skills {
+  margin-left: 20px;
+  margin-top: 20px;
+  flex: 40%;
+}
+
+.row_skills > h3 {
+  border-right: 1px solid darkgray;
+}

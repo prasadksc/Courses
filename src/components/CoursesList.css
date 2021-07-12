@@ -1,0 +1,8 @@
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 20px;
+  max-width: 1500px;
+}
